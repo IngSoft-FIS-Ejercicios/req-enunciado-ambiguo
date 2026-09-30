@@ -1,6 +1,6 @@
 # Requerimientos: El Desafío del Enunciado Ambiguo
 
-¡Bienvenidos al taller práctico de **Especificación de Requerimientos**! Hoy pondremos a prueba los conceptos teóricos vistos en clase transformando un requerimiento mal redactado en especificaciones profesionales de alta calidad.
+¡Bienvenidos al práctico de **Especificación de Requerimientos**! Hoy pondremos a prueba los conceptos teóricos vistos en clase transformando un requerimiento mal redactado en especificaciones profesionales de alta calidad.
 
 ---
 
