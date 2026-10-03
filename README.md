@@ -47,4 +47,43 @@ Seleccioná el flujo de registro o actualización de datos y completá una **Pla
 * **Curso Alternativo:** ¿Qué sucede si ocurre un error o una validación falla?
 
 ---
+
+### Fase 5: Verificación de la especificación con IA (15 min)
+
+**1. Elige un modelo y prepara tu requerimiento**
+
+Puedes usar cualquier LLM (como ChatGPT, Claude o Gemini). Para obtener el mejor resultado, entrégale contexto a la IA antes de pedirle la revisión.
+
+**2. Prompts recomendados para usar con la IA**
+
+**Opción A:** Auditoría completa (Estructura INVEST y SMART)
+Copia y pega este prompt en tu chat, reemplazando el texto entre corchetes:
+
+Actúa como un Analista de Calidad de Software (QA) y Product Owner senior. Revisa el siguiente requerimiento utilizando los criterios INVEST (Independiente, Negociable, Valorable, Estimable, Pequeño, Testeable) y la metodología SMART para los objetivos.
+
+Identifica:
+* Ambigüedades o vacíos de información.
+* Criterios de aceptación faltantes o mal redactados (sugiere formato Gherkin: Dado/Cuando/Entonces).
+* Propuesta de reescritura mejorada.
+
+Aquí está el requerimiento:
+"[Pega tu requerimiento aquí]"
+
+**Opción B:** Transformación rápida a formato User Story + Gherkin
+Si tienes una idea muy básica y quieres que la IA la convierta en un requerimiento profesional:
+
+Convierte la siguiente necesidad de usuario en una Historia de Usuario formal con sus respectivos Criterios de Aceptación en formato Gherkin (Dado/Cuando/Entonces). Asegúrate de incluir casos de éxito y de error.
+
+Necesidad:
+"[Describe brevemente lo que quieres lograr]"
+
+**3. ¿Qué debe buscar la IA al revisar tus requerimientos?**
+Cuando la IA te devuelva el análisis, verifica que haya evaluado los siguientes puntos clave:
+
+* Ausencia de subjetividad: Evita palabras vagas como "rápido", "fácil", "amigable" o "robusto". La IA debe ayudarte a cuantificarlos (ej. “el tiempo de carga debe ser menor a 2 segundos”).
+* Criterios de aceptación claros: ¿Cómo sabrá el equipo de pruebas (QA) que la tarea está lista? Deben cubrir el flujo principal y los escenarios alternativos o de error.
+* Independencia: Que el requerimiento no dependa excesivamente de otro para poder ser desarrollado (a menos que sea estrictamente necesario).
+
+---
+
 *¡Mucho éxito en el desafío! Recuerdá que una buena especificación ahorra horas de retrabajo en el desarrollo.*
